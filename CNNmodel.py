@@ -63,6 +63,6 @@ input=[input_a, input_b]
 output=distance
 model = Model(input, output)
 #CHANGE FILE DIRECTORY OF WEIGHTS
-model.load_weights('C:\\Users\\Hewish\\Desktop\\Birger Internship\\Automatic Signature Verification\\signet-bhsig260-017.h5')
+model.load_weights('path')
 print('Loaded')
-model.save('C:\\Users\\Hewish\\Desktop\\Birger Internship\\Automatic Signature Verification',save_format="h5")
+model.save('path',save_format="h5")
